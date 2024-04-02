@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_chat import message
+from app import message
 from chatglm3 import ChatGLM3
 
 st.title("Chat Demo")
